@@ -1,0 +1,101 @@
+/* Accordion overwrite */
+#accordion{
+  margin-bottom:20px;
+}
+
+.ui-corner-all,
+.ui-corner-top,
+.ui-corner-bottom{
+  border-radius:inherit;
+}
+
+.ui-icon{
+  display:none;
+}
+
+.ui-accordion,
+.ui-widget{
+  font-family:Calibri, 'PT Sans', sans-serif;
+}
+
+.ui-accordion .ui-accordion-header{
+  height:34px;
+  overflow:hidden;
+}
+
+.ui-accordion-icons .ui-accordion-header a{
+  padding-left:7px;;
+}
+
+.ui-accordion .ui-accordion-header a{
+  padding:7px;
+  font-size:16px;
+  font-weight:bold;
+  color:white;
+}
+
+.ui-state-default,
+.ui-state-active{
+  background:none;
+  background-color:transparent;
+  border:none;
+  margin-bottom:5px;
+}
+
+.accordion-href{
+  background-color:#989a8d;
+}
+.accordion-href:hover{
+  opacity:.9;
+}
+
+.important.accordion-href{
+  background-color:#96b13c;
+}
+
+.important.ui-state-default,
+.important.ui-state-active{
+  background-color:transparent;
+}
+
+.ui-accordion .ui-accordion-content{
+  border:none;
+  background-color:#dde2c7;
+  padding:0px;
+  margin-top:-6px;
+  margin-bottom:10px;
+}
+
+.checklist_item{
+  padding: 10px 10px 1px 10px;
+  background-color:#dde2c7;
+}
+
+/* Tabs overwrite */
+
+.ui-tabs{
+  padding:0px;
+}
+
+.ui-tabs .ui-tabs-nav{
+  padding:0px;
+  background:none;
+  background-color:#e5e9d0;
+}
+.ui-widget-header{
+  border:none;
+}
+.ui-widget-content{
+  border:none;
+}
+.checklist_tab.ui-widget-content{
+  border:1px solid #aaaaaa;
+  background-color:white;
+}
+
+.ui-tabs .ui-tabs-nav li a{
+  width:125px;
+  padding-left:0px;
+  padding-right:0px;
+  text-align:center;
+}

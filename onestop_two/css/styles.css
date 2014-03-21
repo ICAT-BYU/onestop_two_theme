@@ -1,0 +1,160 @@
+/**
+ * @file
+ * Styles are organized using the SMACSS technique. @see http://smacss.com/book/
+ *
+ * When you turn on CSS aggregation at admin/config/development/performance, all
+ * of these @include files will be combined into a single file.
+ */
+
+/* HTML element (SMACSS base) rules */
+@import "normalize.css";
+
+/* Layout rules */
+@import "layouts/fixed.css";
+
+/* Component (SMACSS module) rules */
+@import "components/misc.css";
+/* Optionally, add your own components here. */
+@import "print.css";
+
+/* SMACSS theme rules */
+/* @import "theme-A.css"; */
+/* @import "theme-B.css"; */
+
+html{
+  margin: 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  background-repeat: repeat-y;
+  min-height: 100%;
+  background: rgb(153,153,153);
+  background: linear-gradient(to bottom, rgba(153,153,153,1) 0%,rgba(153,153,153,1) 10%,rgba(85,85,68,1) 100%);
+  background: -moz-linear-gradient(top, rgba(153,153,153,1) 0%, rgba(153,153,153,1) 10%, rgba(85,85,68,1) 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(153,153,153,1)), color-stop(10%,rgba(153,153,153,1)), color-stop(100%,rgba(85,85,68,1)));
+  background: -webkit-linear-gradient(top, rgba(153,153,153,1) 0%,rgba(153,153,153,1) 10%,rgba(85,85,68,1) 100%);
+  background: -o-linear-gradient(top, rgba(153,153,153,1) 0%,rgba(153,153,153,1) 10%,rgba(85,85,68,1) 100%);
+  background: -ms-linear-gradient(top, rgba(153,153,153,1) 0%,rgba(153,153,153,1) 10%,rgba(85,85,68,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#999999', endColorstr='#555544',GradientType=0 );
+  font-family: Calibri, 'PT Sans', sans-serif;
+}
+
+a{
+  text-decoration:none;
+}
+
+#page{
+  background-color:white;
+  -moz-box-shadow: 3px 3px 4px #000;
+  -webkit-box-shadow: 3px 3px 4px #000;
+  box-shadow: 3px 3px 4px #000;
+}
+
+#secondary-menu a{
+  color:#545744;
+  font-weight:bold;
+  font-size:14px;
+  text-transform:uppercase;
+}
+
+#secondary-menu li{
+  padding-right:.5em;
+}
+
+.user-name{
+  padding-right:1em;
+  color:#ce3b27;
+}
+
+.event{
+  min-height:75px;
+}
+
+/* -------- Colors -------- */
+
+.tasks{
+	background-color: #1e2353;
+	background-image: none;	
+	color: #a1a6bb;
+}
+
+.checklists{
+  background-color: #96b13c;
+  background-image: none;
+  color: #EAEDD9;
+}
+
+.offices{
+	background-color: #90bde5 ;
+	background-image: none ;
+	color: #c8e3f4;	
+}
+
+.calendar{
+	background-color: #545744;
+	background-image: none;	
+}
+
+.my_onestop{
+	background-color: #CE3B27;
+	background-image: none;	
+	color: #EC7B72;
+}
+
+/* -------- Search Bar -------- */
+#block-search-form{
+  width: 784px;
+  border: solid 3px #EBEBE7;
+  background-color: #EBEBE7;
+  margin-bottom: 10px;
+}
+
+.block-search .form-text{
+  padding-left: 2px;
+  border: 0px;
+  width: 740px;
+  border: none;
+  background-color: #FAFBFA;
+  height: 20px;
+  color: #444444;
+  font-weight: bold;
+  float:right;
+}
+
+.block-search .form-submit{
+  float: left;
+  color: #EBEBE7;
+  width: 35px;
+  float: left;
+  background-color: #EBEBE7;
+  background-image: url(../images/search.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  border: none;
+  font-size: 0px;
+  display: block;
+  height: 20px;
+  float: left;
+  padding: 0px;
+}
+.block-search:after{
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+/* block margins for menu and filter */
+
+#block-onestop-blocks-onestop-menu{
+  margin-bottom:5px;
+}
+#block-onestop-blocks-myonestop-submenu{
+  margin-bottom:10px;
+}
+
+#block-onestop-blocks-onestop-secondary-menu{
+  margin-bottom:20px;
+}
+

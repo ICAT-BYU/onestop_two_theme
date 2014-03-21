@@ -1,0 +1,217 @@
+@media screen and (max-device-width: 500px) and (orientation: portrait), screen and (max-width: 500px){
+  #page{
+    width:330px;
+    padding-left:20px;
+    padding-right:20px;
+    margin:0 auto;
+    padding-bottom:25px;
+  }
+  
+  #logo{
+    width:300px;
+  }
+  
+  #block-views-advertisements-block,
+  #block-views-advertisements-block-1,
+  #secondary-menu,
+  #block-onestop-blocks-onestop-footer-byuhome,
+  #block-onestop-blocks-myonestop-calendar-banner{
+    display:none;
+  }
+  
+  .sidebar-second #content{
+    width:100%;
+    margin-right:0px;
+  }
+  
+  .block-search .form-text{
+    width:290px;
+  }
+  
+  #block-search-form{
+    width:100%;
+  }
+  
+  #footer-columns{
+    width:330px;
+   
+  }
+  #footer-wrapper{
+    width:330px;
+    margin:0 auto;
+
+  }
+  
+  .onestop-menu{
+    padding-left:10px;
+  }
+  
+  .onestop-menu .login-logout{
+    display:inline-block;
+    height:30px;
+    padding-top:10px;
+    width:150px;
+  }
+  
+  .onestop-secondary-menu{
+    height:70px;
+  }
+  
+  .onestop-secondary-menu a{
+    width:106px;
+    float:left;
+  }
+  .onestop-secondary-menu li{
+    width:106px;
+  }
+  /* OneStop view teasers */
+  .teasericon{
+    width:50px;
+    height:50px;
+  }
+  .teasericon img{
+    margin-bottom:0px;
+  }
+  .node-teaser{
+    padding-left:0px;
+  }
+  .teaser-content{
+    width:270px;
+    line-height:18px;
+    padding-top:0px;
+    padding-right:0px;
+    min-height:50px;
+  }
+  .node_unpublished{
+    width:50px;
+    margin-top:-22px;
+    font-size:10px;
+  }
+  
+  .checklist_tabs .node-teaser .teaser-content{
+    width:224px;
+  }
+  
+  /* footer region */
+  .region-footer-firstcolumn{
+    width:35%;
+  }
+  .region-footer-secondcolumn{
+    width:34%;
+  }
+  #block-onestop-blocks-onestop-footer-follow .footertext span{
+    display:none;
+  }
+  
+  /* Main Menu */
+  
+  .onestop-menu-link{
+    height:30px;
+    padding-top:10px;
+  }
+  
+  .onestop-menu-link .menu-text{
+    height:30px;
+  }
+  .onestop-menu-link .menu-img{
+    display:none;
+  }
+  
+  .page-node #block-onestop-blocks-onestop-secondary-menu{
+    display:none;
+  }
+  
+  .youtubevideo{
+    width:330px;
+    height:159px;
+  }
+  
+  /* Node page view */
+  .page-node.sidebar-first .region-sidebar-first{
+    float:none;
+    width:100%;
+  }
+  
+  .page-node .node-block-icon .node-adaptive-content-image{
+    display:block;
+  }
+  
+  .page-node .node-block-icon{
+    width:50px;
+    height:50px;
+    float:left;
+  }
+  
+  .page-node .node-block-title{
+    float: left;
+    margin-left: 15px;
+    padding: 0;
+    width: 265px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-bottom:10px;
+  }
+  
+  .page-node .sidebar-links{
+    clear:both;
+    float:left;
+    width:100%;
+    margin-bottom:10px;
+  }
+  
+  .page-node .node-block-link{
+    clear:both;
+    width:150px;
+    margin-right:17px;
+    float:left;
+  }
+  
+  .page-node .node-block-follow{
+    width:150px;
+    float:left;
+  }
+  
+  .page-node .node-block-info{
+    clear:both;
+  }
+  
+  .page-node #content{
+    width:100%;
+    margin-left:0px;
+    margin-right:0px;
+  }
+  
+  .event {
+    margin-left:0;
+  }
+  
+  .myonestop-filter,
+  .content-review-filter{
+    font-size:10px;
+    letter-spacing:0px;
+  }
+  
+  .myonestop-filter li,
+  .myonestop-filter a,
+  .content-review-filter li,
+  .content-review-filter a{
+    width:80px;
+  }
+  
+  .view-my-onestop .view-content .node-teaser,
+  .view-content-review .view-content .node-teaser{
+    width:330px;
+  }
+  
+  .accordion-href{
+    height:20px;
+    overflow:hidden;
+  }
+  
+  .search-result .teaser-content{
+    width:260px;
+  }
+  .search-results{
+    padding-left:0px;
+  }
+}
